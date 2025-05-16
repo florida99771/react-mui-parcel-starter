@@ -52,14 +52,6 @@ npm run build
 
 The build files will be output to the `dist` directory.
 
-### Deployment
-
-Deploy to GitHub Pages:
-
-```powershell
-npm run deploy
-```
-
 ## Project Structure
 
 ```
