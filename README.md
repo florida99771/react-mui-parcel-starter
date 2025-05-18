@@ -11,6 +11,7 @@ A modern React starter template featuring Material-UI, Tailwind CSS and Parcel b
 - 💅 **Utility-First CSS** - Built-in [TailwindCSS](https://tailwindcss.com/) for rapid styling
 - 🧭 **Routing** - Client-side routing with [React Router](https://reactrouter.com/)
 - 📝 **Code Quality Tools** - ESLint and Prettier configurations for code consistency
+- 🔄 **Git Hooks** - Husky and lint-staged to enforce code quality on commit
 - 🔤 **Typography** - Pre-loaded Roboto font to match Material Design specifications
 - ⚡ **Modern React** - Using the latest React features
 
@@ -124,6 +125,24 @@ This project uses ESLint and Prettier to maintain code quality and consistency.
 - ESLint enforces best practices
 - Prettier ensures consistent code formatting
 - VSCode settings are included to format on save
+- **Husky** provides Git hooks to enforce code quality before commits
+- **lint-staged** runs linters against staged Git files
+
+### Pre-commit Checks
+
+The project is configured with Git hooks via Husky that automatically run on commit:
+
+```bash
+# On every git commit, automatically:
+- ESLint checks JavaScript/JSX files and fixes auto-fixable issues
+- Prettier formats all staged code files
+```
+
+This ensures all code committed to the repository meets the project's quality standards. To skip these checks in exceptional cases (not recommended), you can use:
+
+```powershell
+git commit -m "Your message" --no-verify
+```
 
 ## Contributing
 
