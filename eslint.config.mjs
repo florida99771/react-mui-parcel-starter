@@ -13,6 +13,7 @@ export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs,jsx}"],
     languageOptions: { globals: globals.browser },
+    // If you want to use node,you should write like this: { globals: {...globals.browser, ...globals.node} }
   },
   {
     files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],
