@@ -18,7 +18,7 @@ A modern React starter template featuring Material-UI, Tailwind CSS and Parcel b
 
 ### Prerequisites
 
-- Node.js 
+- Node.js
 - npm or yarn
 
 ### Installation
@@ -66,7 +66,7 @@ react-mui-parcel-starter/
 │   ├── index.html      # HTML template
 │   └── index.css       # Global styles
 ├── eslint.config.mjs   # ESLint configuration
-├── tailwind.config.js  # TailwindCSS configuration 
+├── tailwind.config.js  # TailwindCSS configuration
 ├── package.json        # Project dependencies and scripts
 └── README.md           # Project documentation (this file)
 ```
@@ -94,7 +94,7 @@ Material UI themes can be customized by creating a theme file.
 ### Using Material UI Components
 
 ```jsx
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
 
 function MyComponent() {
   return (
@@ -110,7 +110,7 @@ function MyComponent() {
 ```jsx
 function MyComponent() {
   return (
-    <div className="p-4 m-2 bg-blue-100 rounded-md">
+    <div className="m-2 rounded-md bg-blue-100 p-4">
       <h2 className="text-xl font-bold text-blue-800">Hello, World!</h2>
     </div>
   );
@@ -134,4 +134,5 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 MIT
 
 ---
+
 This README was generated with Claude 3.7 on GitHub Copilot.
